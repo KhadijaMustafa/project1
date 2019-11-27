@@ -1,0 +1,162 @@
+.body{
+	background-color:#fff;
+
+}
+.navbar
+{
+
+
+}
+.navbar-toggler{
+	background-color: #AFEEEE;
+	border-radius: 1px;
+}
+ 
+#p-text{
+              background-color: #BC8F8F;
+       }
+       #bor{
+              border: ridge;
+       }
+.c-block{
+         height:300px;
+         width: 100%;
+}
+.a-block{
+        width:100%;
+        height:330px;
+}
+.x-block{
+	    width:100%;
+	    height:480px;
+}
+.f-block{
+	    width:80%;
+	    height:450px;
+}
+
+  .bn2{
+    background-color: #AFEEEE;
+    color: black;
+    width: 150px;
+     height: 40px;
+     border-radius: 10px;
+
+  }
+  
+  .bn3{
+    background-color: #AFEEEE;
+    color: black;
+    width: 250px;
+     height: 40px;
+     border-radius: 10px;
+
+  }
+   .bn3:hover{
+  	background: #98FB98;
+  	color: black;
+  	border-radius: 10px;
+
+  }
+  .bn2:hover{
+  	background: #98FB98;
+  	color: black;
+  	border-radius: 10px;
+
+  }
+          @media only screen and (max-width: 520px)
+{
+	.bn2
+	{
+		margin-left: 30px;
+	}
+}
+  
+  .form-group{
+  	
+    width: 300px;
+    
+    
+
+  }
+        @media only screen and (max-width: 520px)
+{
+	.form-group
+	{
+		margin-left: 30px;
+	}
+}
+  .form-control:hover{
+  	background: #FFE4E1;
+  	color: black;
+  }
+  
+
+
+.p-gal{
+       border-bottom-style: ridge;
+       text-shadow: #696969;
+       text-align: left;
+   }
+   b{
+   	color: black;
+   }
+   b:hover{
+   	color: black;
+   }
+
+
+.footer-links{
+       
+	font-size:0.875em;
+	padding:0.375em;
+	color:black;
+	transition:color 300ms ease-in-out;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
+
+}
+.ft{
+	border-bottom-style: ridge;
+}
+.footer-links:hover{
+color:black;
+}
+
+/*gallery tags started here
+body{
+	font-family:sans-serif;
+}
+h1{
+	text-align: center;
+	color: orange;
+	margin: 30px 10 10px;
+}*/
+.gallery{
+	margin: -20px 90px;
+}
+.gallery img{
+	width: 230px;
+	height: 170px;
+	padding: 1px;
+	filter: grayscale(20%);
+	border:2px;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.dropdown-menu{
+	background-color:#E6E6FA;
+	margin-top: -5px;
+	border-radius:10px;
+}
+.dropdown-menu:hover{
+	text-decoration-color:#FFF0F5;
+}
+
+
+
+
+
