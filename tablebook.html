@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dinning</title>
+   <meta name="viewport" content="width=device-width , initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style type="text/css">
+     .body{
+      background-image: url("img/f5.jpg");
+      background-color: #cccccc;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+
+   }
+  #h5{
+    background-color:#FFF0F5; 
+   text-align: center;
+   text-shadow: #808080;
+   color: black;
+   margin-top: 50px;
+
+  }
+   #form{
+    background:rgba(255,255,255,0.2);
+    color: #black;
+    text-align: left;
+    height: 380px;
+    margin-left: 0px;
+    
+       }
+              @media only screen and (min-width: 720px)
+{
+  .container
+  {
+    margin-left: 300px;
+  }
+}
+       
+</style>
+</head>
+<body class="body">
+  <br>
+  <div class="container" >
+    <div class="row">
+         
+         <div class="col-sm-8" id="h5" >
+          <br>
+      <h3>BOOK A TABLE</h3>
+    </div>
+    </div>
+  </div>
+    <div class="container" >
+    <div class="row">
+
+              <div class="col-sm-4" id="form">
+      <form>
+        <br>
+          <div class="form-group">
+            <label>  Restaurant</label>
+         <select class="form-control" placeholder="Select" required="true">
+        <option value="rak">Rakaposhi</option>
+        <option value="zam">Zamana</option>
+        <option value="daw">Dawat</option>
+        </select>
+        </div>
+
+         <div class="form-group">
+          <label>No of table</label>
+            <select class="form-control" placeholder="Select" required="true">
+              <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+
+
+            </div>
+             <div class="form-group">
+            Phone
+            <input type="number" class="form-control" placeholder="phone">
+          </div>
+           <div class="form-group">
+              <label> Date</label>
+              <input type="date" class="form-control" placeholder="date" required="true">
+              </div>
+         
+           </div>
+     <div class="col-sm-4" id="form">
+      <br>
+       <div class="form-group">
+              <label> Time</label>
+              <input type="time" class="form-control" placeholder="time" required="true">
+              </div>
+         
+              <div class="form-group">
+             <label> Comments</label>
+              <textarea class="form-control" placeholder="message" rows="4"></textarea>
+          </div>
+       <br>
+   
+           <input type="submit" class="bn2" value="Book a table" style="width: 70%"><br>
+
+         </div>
+       </form>
+     </div>
+   </div>
+ </div>
+</body>
+</html>
+
+
+
+
